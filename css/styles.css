@@ -1,0 +1,112 @@
+@media only screen and (max-width: 600px) {
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 200;
+      padding: 0;
+      overflow-x: hidden;
+    }
+  }
+
+body {
+    background-color: hsl(217, 54%, 11%)!Important;
+    width: 100%;
+}
+
+p {
+    font-family: Outfit;
+    color: hsl(215, 51%, 70%);
+}
+
+.container {
+    width: 100%;
+}
+
+.container-fluid {
+    background-color: hsl(217, 54%, 11%);
+}
+
+.card {
+    width: 22rem;
+    padding: 0.80%;
+    background-color: hsl(216, 50%, 16%)!Important;
+    border-radius: 200px;
+    margin-top: 10%;
+}
+
+.col {
+    width: 100%;
+}
+
+.img-top {
+   width: 100%;
+   height: auto;
+   padding: 1%;
+   border-radius: 4%;
+}
+
+.img-top:hover {
+    opacity: 2;
+    transition: .1s ease;
+    background-color: hsl(178, 100%, 50%);
+}
+
+.card-title {
+    font-family: Outfit;
+    color: #fff;
+    text-align: left;
+}
+
+.card-text {
+    font-size: 15px;
+    text-align: left;
+}
+
+.time {
+    text-align: right;
+}
+
+.avatar {
+    width: 12%;
+    padding: 0.80%;
+    border-color: #fff;
+    border-width: 100px;
+    text-align: left;
+    margin-right: 10px;
+}
+
+.avatar-text {
+    font-size: small;
+}
+
+.attribution {
+    color: #fff;
+    text-align: center;
+    font-size: small;
+    position: relative;
+    bottom:0;
+    width:100%;
+    margin-top: 100px;
+}
+
+.hr {
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 10px;
+    margin-top: 1px;
+}
+
+.price {
+    color: hsl(178, 100%, 50%);
+}
+
+.link {
+    color: hsl(178, 100%, 50%); 
+}
+
+span {
+    color: #fff;
+}
+
+span:hover {
+    color: hsl(178, 100%, 50%);
+}
